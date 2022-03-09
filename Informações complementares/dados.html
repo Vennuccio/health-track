@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Informações complementares/dados.css">
+    <link rel="stylesheet" href="/Informações complementares/all.min.css">
+
+    <title>Dados adicionais - Health Track</title>
+</head>
+<body>
+    <div id="form">
+        <form action="">
+            <h2 class="title">Dados adicionais</h2>
+            <label for="altura">Altura</label>
+            <div class="input">
+                <i class="fa-solid fa-person"></i>
+                <input id="altura" name="Altura" placeholder="Centímetros" type="number" maxlength="3">
+            </div>
+            <label for="peso">Peso</label>
+            <div class="input">
+                <i class="fa-solid fa-weight-hanging"></i>
+                <input id="peso" name="Peso" placeholder="Kg" type="number" min="0" max="500">
+            </div>
+            <label for="idade">Idade</label>
+            <div class="input">
+                <i class="fa-solid fa-calendar"></i>
+                <input id="idade" name="Idade" placeholder="Anos" type="number" min="0" max="110">
+            </div>
+            <div id="btn">
+                <button type="submit">Confirmar dados</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
